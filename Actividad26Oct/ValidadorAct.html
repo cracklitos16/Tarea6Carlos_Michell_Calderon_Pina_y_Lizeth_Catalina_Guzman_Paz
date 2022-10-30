@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Validador Actividad</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link  
+href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600;700;900&display=swap" 
+rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Tarea 6 </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">HOME</a></li>
+      </ul>    
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Registro de Alumnos: </h1>      
+    <p>...Validador con JS...</p>
+  </div>
+</div>
+
+<div class="Valid"> 
+
+<h3>Por favor llena los siguientes campos con lo que se te pide.</h3>
+<br>
+<p>Ingrese su nombre completo con apellidos: </p>
+<input id="Name" required>
+<!-- <p id="valida_Name"></p> -->
+<br>
+<br>
+<p>Ingrese su Número de Control: </p>
+<input id="numeroCont" required>
+<p id="valida_numeroCont"></p>
+<br>
+<p>Ingrese su RFC: </p>
+<input id="RFC" required>
+<p id="valida_RFC"></p>
+<br>
+<p>Ingrese su Número de Celular: </p>
+<input id="numeroCel" required>
+<p id="valida_numeroCel"></p>
+<br>
+<p>Ingrese su correo Institucional del Tecnológico de Morelia: </p>
+<input id="Correo1" required>
+<p id="valida_Correo"></p>
+<br>
+<div class="B__Btn">
+  <button  class="btn btn--verde" type="button" onclick="myFunction()">Validar Información</button> <br>
+</div>
+</div>
+<div class="valid2">
+  <h3 id="Comprobacion"></h3>
+  <h3 id="Valida2"></h3>
+</div>
+
+<footer class="footer">
+  <div class="footer__derechos">
+      <p class="footer__derechos--texto"> © 2022 Guzman Paz ft Calderon Piña</p>
+  </div>
+  <div class="footer__redes">
+      
+    <figure class="footer__redes-contenedor">
+      <a class="footer__redes-contenedor--link" href="https://github.com/cracklitos16" target="_blank" rel="noopener noreferrer">
+        <img class="footer__redes-contenedor--img" src="./img/github.png" alt="Logo de GitHub"/>
+      </a>
+    </figure>
+    <figure class="footer__redes-contenedor">
+      <a class="footer__redes-contenedor--link" href="https://github.com/CATALINALIZETH" target="_blank" rel="noopener noreferrer">
+        <img class="footer__redes-contenedor--img" src="./img/github.png" alt="Logo de GitHub"/>
+      </a>
+    </figure>
+  </div>
+</footer>
+<script src="./script.js"></script>
+</body>
+</html>
